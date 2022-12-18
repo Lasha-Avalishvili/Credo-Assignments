@@ -1,54 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Move_element_to_end
+namespace homework_16_trial
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var array =new List<int> { 2, 1, 2, 2, 2, 3, 4, 2 };
-            var toMove = 2;
-
+            List<int> list1 = new List<int>() { 1, 2, 3, 4, 5, 6, 3, 3, 6, 4, 3 };
+            int toMove = 3;
             int count = 0;
-            Display(array);
+            Display(list1);
+            Console.WriteLine("--------------------------------");
 
-
-            for (int i = 0; i < array.Count; i++)
+            for (int i = 0; i < list1.Count; i++)
             {
-                if (array[i] == toMove)
+                if (list1[i] == toMove)
                 {
-                    array.Remove(toMove);
+                    list1.Remove(toMove);
                     count++;
                 }
             }
 
-            if (array[^1] == toMove)
+            if (list1[^1] == toMove)
             {
-                array.Remove(toMove);
+                list1.Remove(toMove);
                 count++;
             }
 
-            Display(array);
-
             for (int i = 0; i < count; i++)
             {
-                array.Add(toMove);
+                list1.Add(toMove);
             }
 
-            Display(array);
-
+            Display(list1);
         }
-
         public static void Display(List<int> list)
         {
-            foreach (int number in list)
-            {
-                Console.WriteLine(number);
-            }
-            Console.WriteLine("*******************");
+            Console.WriteLine(string.Join(", ", list));
         }
-
-
     }
 }
