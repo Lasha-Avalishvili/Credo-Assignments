@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment 7 - Warehouse Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment 8 - Burger Builder", "Assignment 8 - Burger Builder\Assignment 8 - Burger Builder.csproj", "{9073FFD2-E2FB-43BC-84C1-14AD19C7A3DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment 16 - Move element to end", "Assignment 16 - Move element to end\Assignment 16 - Move element to end.csproj", "{7E3C626A-19EC-4A84-857F-5C3767BD278A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment 16 - Move element to end", "Assignment 16 - Move element to end\Assignment 16 - Move element to end.csproj", "{7E3C626A-19EC-4A84-857F-5C3767BD278A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment 11 - Football data reader", "Assignment 11 - Football data reader\Assignment 11 - Football data reader.csproj", "{5EEDA302-B71F-4AD0-BEF5-6C1EDA28077D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7E3C626A-19EC-4A84-857F-5C3767BD278A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E3C626A-19EC-4A84-857F-5C3767BD278A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E3C626A-19EC-4A84-857F-5C3767BD278A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEDA302-B71F-4AD0-BEF5-6C1EDA28077D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEDA302-B71F-4AD0-BEF5-6C1EDA28077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEDA302-B71F-4AD0-BEF5-6C1EDA28077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEDA302-B71F-4AD0-BEF5-6C1EDA28077D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
